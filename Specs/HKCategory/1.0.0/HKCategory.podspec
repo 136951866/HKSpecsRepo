@@ -1,0 +1,36 @@
+Pod::Spec.new do |s|
+    s.name         = 'HKCategory'
+    s.version      = '1.0.0'
+    s.summary      = '分类'
+    s.homepage     = 'https://github.com/136951866/BasicLibrary.git'
+    s.license      = 'MIT'
+    s.authors      = {'Hank Zhang' => '136951866@qq.com'}
+    s.platform     = :ios, '9.0'
+    s.source       = {:git => 'https://github.com/136951866/BasicLibrary.git', :tag => s.version}
+    s.source_files = 'HKCategory/Pod/Classes/*.{h,m}'
+    
+    s.subspec 'Color' do |co|
+      co.source_files = 'HKCategory/Pod/Classes/Color/*.{h,m}'
+    end
+    s.subspec 'NSObject' do |obj|
+      obj.source_files = 'HKCategory/Pod/Classes/NSObject/*.{h,m}'
+    end
+    s.subspec 'NSString' do |str|
+      str.source_files = 'HKCategory/Pod/Classes/NSString/*.{h,m}'
+    end
+    s.subspec 'UIImage' do |img|
+      img.source_files = 'HKCategory/Pod/Classes/UIImage/*.{h,m}'
+    end
+    s.subspec 'UIView' do |view|
+      view.source_files = 'HKCategory/Pod/Classes/UIView/*.{h,m}'
+    end
+     s.subspec 'UIBarButtonItem' do |bi|
+      bi.source_files = 'HKCategory/Pod/Classes/UIBarButtonItem/*.{h,m}'
+    end
+      s.subspec 'UILabel' do |lbl|
+      lbl.source_files = 'HKCategory/Pod/Classes/UILabel/*.{h,m}'
+    end
+
+    s.requires_arc = true
+
+end
