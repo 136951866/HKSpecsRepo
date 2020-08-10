@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = 'https://github.com/136951866/HKCategory.git'
     s.license      = 'MIT'
     s.authors      = {'Hank Zhang' => '136951866@qq.com'}
-    s.platform     = :ios, '9.0'
+    s.platform     = :ios, '9.3'
     s.source       = {:git => 'https://github.com/136951866/HKCategory.git', :tag => s.version}
     s.source_files = 'Pod/Classes/*.{h,m}'
     
