@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = 'HKCategory'
+    s.name         = 'HKToolMacros'
     s.version      = '1.0.0'
     s.summary      = '组件(工具宏)'
     s.homepage     = 'https://github.com/136951866/HKToolMacros.git'
