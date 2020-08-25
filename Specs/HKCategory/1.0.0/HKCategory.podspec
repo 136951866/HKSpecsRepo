@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
     s.subspec 'Color' do |co|
       co.source_files = 'Pod/Classes/Color/*.{h,m}'
     end
+    s.subspec 'NSArray' do |co|
+      co.source_files = 'Pod/Classes/NSArray/*.{h,m}'
+    end
     s.subspec 'NSObject' do |obj|
       obj.source_files = 'Pod/Classes/NSObject/*.{h,m}'
     end
