@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     s.subspec 'Color' do |co|
       co.source_files = 'Pod/Classes/Color/*.{h,m}'
     end
-    s.subspec 'NSArray' do |co|
-      co.source_files = 'Pod/Classes/NSArray/*.{h,m}'
+    s.subspec 'NSArray' do |arr|
+      arr.source_files = 'Pod/Classes/NSArray/*.{h,m}'
     end
     s.subspec 'NSObject' do |obj|
       obj.source_files = 'Pod/Classes/NSObject/*.{h,m}'
@@ -27,17 +27,17 @@ Pod::Spec.new do |s|
     s.subspec 'UIView' do |view|
       view.source_files = 'Pod/Classes/UIView/*.{h,m}'
     end
-     s.subspec 'UIBarButtonItem' do |bi|
+    s.subspec 'UIBarButtonItem' do |bi|
       bi.source_files = 'Pod/Classes/UIBarButtonItem/*.{h,m}'
     end
-      s.subspec 'UILabel' do |lbl|
+    s.subspec 'UILabel' do |lbl|
       lbl.source_files = 'Pod/Classes/UILabel/*.{h,m}'
     end
-      s.subspec 'UIButton' do |btn|
-      co.source_files = 'Pod/Classes/UIButton/*.{h,m}'
+    s.subspec 'UIButton' do |btn|
+      btn.source_files = 'Pod/Classes/UIButton/*.{h,m}'
     end
-      s.subspec 'NSDate' do |date|
-      co.source_files = 'Pod/Classes/NSDate/*.{h,m}'
+    s.subspec 'NSDate' do |date|
+      date.source_files = 'Pod/Classes/NSDate/*.{h,m}'
     end
 
     s.requires_arc = true
