@@ -33,6 +33,12 @@ Pod::Spec.new do |s|
       s.subspec 'UILabel' do |lbl|
       lbl.source_files = 'Pod/Classes/UILabel/*.{h,m}'
     end
+      s.subspec 'UIButton' do |btn|
+      co.source_files = 'Pod/Classes/UIButton/*.{h,m}'
+    end
+      s.subspec 'NSDate' do |date|
+      co.source_files = 'Pod/Classes/NSDate/*.{h,m}'
+    end
 
     s.requires_arc = true
 

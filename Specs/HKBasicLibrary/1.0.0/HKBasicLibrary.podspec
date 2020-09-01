@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
     s.subspec 'HKCommonTool' do |co|
       co.source_files = 'Pod/Classes/HKCommonTool/*.{h,m}'
     end
-
+    s.subspec 'HKBAlert' do |co|
+      co.source_files = 'Pod/Classes/HKBAlert/*.{h,m}'
+    end
 
     s.requires_arc = true
 
